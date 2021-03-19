@@ -237,7 +237,7 @@ class Constraints {
 class MandatoryConstraint implements IConstraint {
   bool _isValid = false;
 
-  String _description = "mandatory"; //$NON-NLS-1$
+  String _description = "必須"; //$NON-NLS-1$
 
   void applyConstraint(Object value) {
     if (value == null) {
